@@ -1,0 +1,202 @@
+body,header,nav,main,footer,h1,div,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffd000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #333; 
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+img.logomain {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+p.indexparagraph{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 30px; 
+    text-align: center;
+    color: #333; 
+    line-height: 1.5; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+header img {
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    font-size: 40px;
+}
+
+main {
+    display: block;
+    margin: 20px auto;
+    width: 80%; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+img.indexwelcome {
+    
+    width: 200px; 
+    height: auto; 
+}
+
+.productofweek {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+
+.productofweek .text-border-bg {
+    border: 2px solid black; 
+    padding: 5px; 
+    background-color: rgb(53, 53, 51); 
+    display: inline-block; 
+}
+
+#product, #p1, #p2, #p3 {
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 2%;
+    color: #252525;
+    font-size: 2em;
+}
+
+#weekly {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 10px 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+#round {
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 1em;
+        width: 90%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        padding: 0.8em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 1.5em;
+        width: 85%;
+    }
+}
+
+@media (min-width: 901px) {
+    header {
+        padding: 1em 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 2em;
+        width: 80%;
+    }
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+
+nav ul li a:hover {
+    background: #ffffff;
+    border-radius: 17px;
+}
+
+nav ul li a:active {
+    background: #ffffff;
+}

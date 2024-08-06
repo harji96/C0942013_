@@ -1,0 +1,251 @@
+body,header,nav,main,footer,h1,div,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #333; 
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+
+img.logomain {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+
+header img {
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    font-size: 40px;
+}
+
+main {
+    display: block;
+    margin: 20px auto;
+    width: 80%; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffd000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="reset"] {
+    background-color: #6c757d;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+.map-container {
+    margin-top: 30px;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 1em;
+        width: 90%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        padding: 0.8em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 1.5em;
+        width: 85%;
+    }
+}
+
+@media (min-width: 901px) {
+    header {
+        padding: 1em 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 2em;
+        width: 80%;
+    }
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #ff0000;
+    border-radius: 17px;
+}
+
+nav ul li a:active {
+    background: #ffffff;
+}

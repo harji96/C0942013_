@@ -1,0 +1,236 @@
+body,header,nav,main,footer,h1,div,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffd000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #333; 
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+
+#imagelogos {
+    margin-left: 670px;
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    align-content: center;
+} 
+
+header img {
+    margin: 0 auto;
+    border-radius: 50%; 
+        width: 200px; 
+        height: 200px; 
+        object-fit: cover; 
+}
+
+header h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    font-size: 40px;
+}
+
+main {
+    display: block;
+    margin: 20px auto;
+    width: 80%; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+#whoweare {
+    color: #333;
+    font-size: 40px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: #ffffff;
+    font-style: italic;
+    border-radius: 25px;
+}
+
+#headings {
+    color: #333;
+    font-size: 30px;
+    width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid rgb(0, 0, 0); 
+    padding: 20px;
+    background-color: #ffd000;
+   
+}
+
+#paras {
+    font-size: 30px;
+    text-align: center;
+}
+
+#names {
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+figure {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+aside {
+    background-color: #f9f9f9;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+
+#round {
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 600px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 1em;
+        width: 90%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        padding: 0.8em 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 1.5em;
+        width: 85%;
+    }
+}
+
+@media (min-width: 901px) {
+    header {
+        padding: 1em 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 2em;
+        width: 80%;
+    }
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+
+nav ul li a:hover {
+    background: #ffffff;
+    border-radius: 17px;
+}
+
+nav ul li a:active {
+    background: #ffffff;
+}
